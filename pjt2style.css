@@ -1,0 +1,179 @@
+html{
+    background-image: linear-gradient(#08AEEA,#2AF598);
+}
+.container{
+    width: 1024px;
+    background-image: url(images/image-lion-background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    height: 100%;
+}
+.head{
+    font-size: 3rem;
+    
+    padding-bottom: 1.5rem;
+}
+.p{
+    font-size: 1.125;
+}
+.testimonials{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-bottom: 50px;
+
+}
+.tbox{
+    margin-top: 50px;
+    width: 47%;
+    padding: 50px;
+    border: 1px solid white ;
+    box-sizing: border-box;
+}
+
+p{
+    line-height: 1.5rem;
+    padding-bottom: .5re;
+}
+header{
+  
+    
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom:1px solid lightgrey ;
+}
+main{
+    /* background-color: rgb(49, 136, 41); */
+    display: flex;
+    font-family: 'Kiwi Maru', serif;
+    align-items: center;
+}
+.cards{
+    margin-top: 1.5rem;
+    min-height: fi;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.card1{
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 250px;
+    width: 30%;
+    
+
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    padding-top:20px;
+    text-align: center;
+  
+}
+.navbutton:hover .dropdown{
+    display:block;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h2{
+    font-size: 2rem;
+    font-family: 'Kiwi Maru', serif;
+    margin-top: 20px;
+
+}
+.card2{
+    background-image: url(images/image-background-card2.jpg);
+    min-height: 250px;
+    width: 30%;
+    background-position: center;
+    background-size: cover;
+}
+.card3{
+    background-image: url(images/image-background-card3.jpg);
+    min-height: 250px;
+    width: 30%;
+    background-position: bottom;
+    background-size: cover;
+}
+.herobox1{
+    width: 50%;
+    /* background-color: cornflowerblue; */
+    flex: 2;
+}
+.herobox2{
+    width: 50%;
+    /* background-color:mintcream; */
+    flex: 1;
+}
+.cards p{
+    font-size: 0.85rem;
+    line-height:1.2rem;
+    margin-top: 10px ;
+}
+i{
+    padding-top: 30px;
+    font-size: 100px;
+}
+
+.card1,.card2,.card3{
+    padding: 30px 30px 20px 30px ;
+    box-sizing:border-box ;
+}
+.mybutton{
+    display: inline-block;
+    padding: 11px 26px;
+    margin-top: 20px;
+    background-color: white;
+    color:#08AEEA;
+    border-radius: 3px;
+    font-family: 'Kiwi Maru', serif;
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.281); 
+}
+.mybutton:hover{
+    background-color: aqua;
+    transition-duration: 1s;
+}
+main{
+    padding-top: 30px;
+}
+
+.navbutton{
+    margin-left: 30px;
+    border-style: solid;
+    font-family: 'Kiwi Maru', serif;
+    border-width: 1px;
+    display: inline-block;
+    padding: 11px 25px;
+    position: relative;
+}
+.navbutton:hover{
+    color: #9d11ee;
+}
+.tbox :last-child {
+    font-size: .8em;
+    padding-left: 70px;
+
+} 
+.dropdown .navbutton{
+    width:120px;
+    background-color: white;
+    margin-left: -30px;
+}
+.dropdown .navbutton a{
+    color: #08AEEA;
+}
